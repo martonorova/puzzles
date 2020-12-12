@@ -1,0 +1,2 @@
+// PUZZLES
+export const PUZZLES_LOADED = 'PUZZLES_LOADED';
