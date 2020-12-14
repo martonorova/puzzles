@@ -1,15 +1,23 @@
 import React from 'react';
 import { Button } from 'antd';
 import './App.css';
+import { Switch, Route } from 'react-router-dom';
 
-import { content } from './scraping/scraper';
+import PuzzleState from './context/puzzle/PuzzleState';
 
-console.log(content)
+import Home from './components/pages/Home';
+
+// console.log(content)
 
 const App = () => (
-  <div className="App">
-    <Button type="primary">Button</Button>
-  </div>
+  <PuzzleState>
+    <div className='App'>
+      <Switch>
+        <Route path='/' component={Home} />
+      </Switch>
+      
+    </div>
+  </PuzzleState>
 );
 
 export default App;

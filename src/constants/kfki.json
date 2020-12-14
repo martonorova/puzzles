@@ -1,0 +1,297 @@
+[
+    {
+      "id": 0,
+      "title": "Enni vagy aludni, az itt a kérdés",
+      "text": "Egy logikai probléma a Gulag világából: Tegyük fel, hogy az ember pontosan két hétig bírja evés vagy alvás nélkül. Mit tennél kétheti éhezés és alvatlanság végén: ennél-e vagy aludnál?",
+      "solution": "Mivel nem lehet egyszerre enni és aludni, az utolsó étkezés és az utolsó alvás óta eltelt idő szükségképpen különbözik. Azt kell tenned, amit két héttel ezelőtt legutóbb tettél. Ha megpróbáltatásaid előtt aludtál és utána ettél, akkor most először enned kell. (Ha tekintetbe vesszük az élelmiszerért álló sorok hosszúságát az egykori Szovjetunióban, nagyon is valóságos lehet ez a kérdés. Mit csinálnál boltba menés előtt: ennél-e vagy aludnál? )"
+    },
+    {
+      "id": 1,
+      "title": "A fogoly és az őrök",
+      "text": "Fogoly vagy, s celládnak két ajtaja van, egy-egy őr áll mindkettő előtt. Az egyik őr mindig hazudik, a másik mindig igazat mond, de te nem tudod, hogy melyik melyik. Az egyik ajtó a kivégzőosztag elé vezet, a biztos halálba, a másik a szabaduláshoz. Csak egy kérdést tehetsz fel, és csak az egyik őrnek. Mit teszel?",
+      "solution": "Ha csak az ajtókra vagy csak az egyik ajtóra kérdezel rá, nem fogsz megtudni semmit. Az olyan kérdések például, mint \"A bal oldali ajtó a halálba vezet-e?\", semmire sem jók, hiszen vagy igen lesz a válasz, vagy nem, és nem tudod eldönteni, hogy a válasz igaz-e, vagy hamis. Ha meg azt kérdezed, hogy \"A másik őr igazmondó-e?\", mindig azt a választ fogod kapni, hogy nem. Ám arra a kérdésre, hogy \"A másik őr azt mondaná-e, hogy a bal oldali ajtó a halálba vezet?\", mindig hamis választ kapsz, tehát azt az ajtót kell választanod, amelyiktől elriasztottak. De kihasználhatod azt a körülményt is, hogy az egyik őr az egyik ajtó előtt áll, a másik őr a másik előtt. Kérdezd meg például valamelyiküktől, hogy \"Az igazmondó őr áll-e a kivégzőosztaghoz vezető ajtó előtt?\", ha azt mondja, hogy igen, akkor a másik ajtón menj ki."
+    },
+    {
+      "id": 2,
+      "title": "Ikerpár",
+      "text": "Van egy ikerpár, akiket nem lehet kinézetre megkülönböztetni, viszont az egyik mindig igazat mond, a másik mindig hazudik. Az egyiküket úgy hívják, hogy John. Tegyük fel, hogy találkozunk a két testvérrel, és meg akarjuk tudni, hogy melyikük John. Egyetlen kérdést tehetünk fel, amire igen vagy nem a válasz. Sőt a kérdés nem lehet három szónál hosszabb. Mit kérdezzünk? És mi a helyzet akkor, ha nem azt akarjuk megtudni, hogy melyikük John, hanem azt, hogy John hazudik-e? Ez megoldható egy háromszavas kérdéssel?",
+      "solution": "Hogy kitaláljuk, melyik testvér John, kérdezzük meg az egyiktől: \"John igazat mond?\". Ha a válasz \"igen\", akkor ő John, akár hazudik, akár igazat mond. Ha nemmel válaszol, akkor a másik lesz John. Természetesen a \"John mindig hazudik?\" kérdés ugyanilyen jó. A második esetben - hogy eldöntsük John hazudik-e vagy sem - csak azt kell kérdeznünk: \"Te vagy John?\""
+    },
+    {
+      "id": 3,
+      "title": "A három bölcs",
+      "text": "Három bölcs elmegy a legnagyobb bölcsek bölcséhez, hogy megtudják tőle, ki közülük a legbölcsebb. A bölcsek bölcse elovesz öt kalapot: három feketét és két fehéret. Feltesz a bölcsek fejére két feketét, és egy fehéret, de a bölcsek nem tudják, hogy az öt kalapból melyeket teszi vissza a szekrénybe. Mindenki látja továbbá a másik kalapját, csak a sajátját nem. A bölcsek feladata kitalálni a saját kalapjuk színét. Egy ideig gondolkodnak, végül az egyikük feláll és megmondja, hogy a kalapja színe fekete. Hogyan gondolkodott?",
+      "solution": "A bölcs, aki megszólal lát 1 fehér kalapot és 1 fekete kalapot a másik 2 fejen. A fehér kalapos 2 fekete kalapot lát, tehát nem szól semmit, mert biztosan nem tudhatja, hogy mi van a fején. A másik fekete kalapos szintén lát 1 fehéret és valamilyet, ám nem szólal meg, ez azt jelenti, hogy emberünkön nem fehér kalap van, hiszen akkor a másik egyből mondaná, hogy rajta fekete van, hiszen két fehéret látna. De mivel nem szól ezért bizonytalan, és ebből jön rá emberünk, hogy csakis fekete kalap lehet rajta."
+    },
+    {
+      "id": 4,
+      "title": "Az igazságos bölcs",
+      "text": "Az előző feladat nehezítése. Most is három fekete és két fehér kalap van. De a bölcsek bölcse igazságos akar lenni, ezért egyenlő eselyéket adva a három bölcsnek mindhármuk fejére feketét húz. Azt természetesen nem látják, hogy milyen szinű a maradék két kalap. A bölcsek gondolkodnak egy ideig, végül az egyik kiböki: rajtam fekete van! Honnan tudta?",
+      "solution": "A bölcsek egy idő után rájönnek, hogy nem az az eset áll fenn, amikor 1 fekete és 2 fehér kalap van, hiszen ekkor valaki rögtön szólna. Nade az előző feladat esete sem lehet, mert akkor is szólt valaki rövid töprengés után! De ezeket kizárva már csak egy eset maradt, ha mindegyikük fején fekete kalap van. Tehát bármelyikük kitalálhatja a másik kettő hallgatásából, hogy fekete a kalapja."
+    },
+    {
+      "id": 5,
+      "title": "A kannibálok fogságába esett bölcsek",
+      "text": "Három bölcs kannibálok fogságába esik. A kannibálok egyetlen lehetőséget adnak nekik arra, hogy megmenekülhessenek. A bölcseket magasság szerint sorbaállítják. A leghátsó bölcs látja a másik kettőt. A középső csak a legelöl állót látja. A legelső pedig senkit sem. A kannibálok elővesznek 5 sapkát: három feketét, és két fehéret. Bekötik a bölcsek szemét, és mindegyikük fejére adnak egy-egy sapkát, a maradék kettőt pedig eldugják. Ezután bölcsekről leveszik a szemkötőket. A kannibálok mindegyik bölcset elengedik, ha bármelyikük meg tudja mondani, hogy milyen színű sapka van a fején. A leghátsó bölcs azt mondja, hogy sajnos nem tudja megmondani, hogy milyen színű sapka van a fején. Ezután a középsőt kérdezik, de sajnos ő sem tudja biztosra megmondani. Végül a legelsőt kérdezik, aki semmit sem lát, ő azonban megmondaja milyen színű sapka van a fején. Honnan tudta, és milyen színű sapka volt rajta?",
+      "solution": "A leghátsó bölcs csak abban az esetben tudná megmondani a sapkája színét, ha maga előtt két fehér sapkát látna, ekkor a sajátja ugyanis már csak fekete lehetne. Mivel viszont nem tudja megmondani a leghátsó bölcs a sapkája színét, ebből az következik, hogy maga előtt legalább egy feketét lát, és ezt a következtetést a másik két bölcs is le tudja vonni abból, hogy a hátsó nem tudja megmondani sapkája színét. Mármost nézzük meg milyen sapka lehet a legelsőn. Ha fehér lenne, akkor középsőn kéne legyen a fekete, de mivel a középső látná, hogy a legelsőn fehér van, ezért ő is tudná, hogy rajta csakis fekete lehet, tehát meg tudná mondani a sapkája színét. Mivel viszont nem tudja megmondani, ebből a legelső csak arra következtethet, hogy rajta fekete van. És ha a középső fekete sapkát lát a legelsőn, abból valóbn nem tud következtetni a saját sapkájának a színére, hiszen az lehet fehér is és fekete is."
+    },
+    {
+      "id": 6,
+      "title": "A kannibálok fogságába esett bölcsek II",
+      "text": "Ugyanaz a feladat, mint az előző feladványban, de most négy bölcs van és összesen 6 sapka, amelyek közül három fekete, két fehér és egy piros.",
+      "solution": "Hamarosan..."
+    },
+    {
+      "id": 7,
+      "title": "Négy tanuló és a színes sapkák",
+      "text": "Négy tanulót a logika tanár sorbaállít. Azt mondja a logika tanár, hogy van négy sapkája: egy piros, egy sárga, egy kék, és egy negyedik, aminek a színe megegyezik valamelyik előző színével. Ezeket a sapkákat felteszi a tanulók fejére, de mindegyik tanuló csak az előtte lévők fején lévő sapkákat látja, a sajátját és a mögötte állókét nem. A logikatanár hátulról kezdve megkérdi a diákoktól, hogy milyen színű sapka van a saját fejükön. Mindegyik tanuló helyesen és magabiztosan meg tudja mondani, hogy milyen színű sapka van a fején. A kérdés az, hogy melyik két tanulón lehetett azonos színű sapka?",
+      "solution": "Legyen mondjuk a piros színből kettő. Ezesetben a leghátsón nem lehet piros, hiszen akor három különböző színt látna maga előtt és akkor nem tudná megállapítani a saját sapkája színét. A leghátó tehát két pirosat és egy másik színt, mondjuk sárgát lát maga előtt. Ebből pedig tudja, hogy rajta csakis kék lehet. Az utolsó előtti diákon megintcsak nem lehet piros, mert akkor egy pirosat és egy sárgát látna maga előtt, és nem tudná eldönteni, hogy melyik szín lehet rajta, amiből kettő van. Tehát az első két diákon vannak az azonos színű sapkák. És az is világos, hogy ebben az esetben ők is meg tudják állapítani a sapkájuk színét."
+    },
+    {
+      "id": 8,
+      "title": "Cukorkás dobozok",
+      "text": "Valaki a következő fejtörőt játsza a barátaival. Négy doboz mindegyikébe rak 3-3 darab cukorkát. Minden cukorka vagy piros vagy kék szinű, és a kék cukorkák száma mindegyik dobozban más. Továbbá mindegyik dobozban van egy cetli, amelyik elárulja, hogy hány kék cukorka van a dobozban. A cetlik azonban összekeveredtek és mindegyik rossz dobozban van. Mindenki kap egy dobozt, és kivehet a dobozból két darab cukorkát találomra, majd meg kell mondania, hogy milyen színű a harmadik cukorka. Az első ember, aki kinyitja a dobozát, két kék cukorkát vesz ki, és rögtön meg is tudja mondani, hogy milyen színű a harmadik cukorka. A második doboz tulajdonosa egy piros és egy kék cukorkát vesz ki, és ő is meg tudja mondani a harmadik cukorka színét. A harmadik próbálkozó két pirosat vesz ki a dobozából, azonban nem tudja megmondani, hogy milyen színű a harmadik cukorka. Végül a legutolsó anélkül, hogy kivenne cukorkát, vagy megnézné a cetlijét, meg tudja mondani, hogy milyen színű cukorkák vannak a dobozában. Ezek alapján meg tudnád mondani pontosan, hogy kinek milyen cukorkái voltak, és hogy hol milyen cetli volt?",
+      "solution": "Hamarosan..."
+    },
+    {
+      "id": 9,
+      "title": "Alszik, vagy nem alszik?",
+      "text": "Amikor a király alszik, minden, amit igaznak hisz, hamis. Más szóval, minden, amit a király alvás közben hisz, az hamis. Amit viszont ébren hisz, az mind igaz. Nos, múlt éjszaka, a király azt hitte, hogy ő is, és a királynő is alszik. Aludt ekkor a királynő, vagy sem?",
+      "solution": "Ha a király ébren lett volna, nem hihette volna hamisan azt, hogy mindketten alszanak. Tehát a király aludt. És mivel nem igaz az, hogy mindketten aludtak, ezért biztos, hogy a királynő ébren volt."
+    },
+    {
+      "id": 10,
+      "title": "Király és királynő",
+      "text": "Rejtvényországban a teremtmények épeszűek vagy bolondok. A bolondok minden hiedelme téves, míg az épeszűek minden igazról tudják, hogy igaz, és minden hamisról azt, hogy hamis. Mármost a királynő azt hiszi, hogy a király azt hiszi, hogy a királynő azt hiszi, hogy a király azt hiszi, hogy a királynő bolond. A királynő épeszű vagy bolond?",
+      "solution": "Hamarosan..."
+    },
+    {
+      "id": 11,
+      "title": "A maharadzsa",
+      "text": "A maharadzsa egy szigeten élt, és mindenkitől félt, ezért az egyetlen hídra, mely a szigetet a szárazfölddel összekötötte akasztófákat állíttatott. A hidat leghűségesebb őrei védték. A sziget köré pedig vérszomjas krokodilokat telepített. Meghagyta őreinek, hogy aki a hídra lép és hazudik, azt dobják a krokodilok közé, aki igazat mond, azt akasszák fel. Így egy idegen sem léphet be a szigetre. Egyszer arra jött egy vándor és valamit súgott az őrök fülébe, akik tanácstalanul egymásra néztek, majd beengedték a vándort a szigetre. Vajon mit súghatott?",
+      "solution": "A vándor súghatta például azt, hogy \"Engem krokodilok közé fogtok dobni.\" Ha az őrök krokodilok közé dobják, akkor igazat mondott, tehát akasztani kellett volna. Ha viszont felakasztják, akkor hazudott, tehát a krokodilok közé dobás kellett volna, hogy legyen a jussa. Egyébként mondhatott volna bármilyen paradox állítást, mint például \"Én most hazudok.\" Szintúgy említhetett volna egy matematikai sejtést, mint például \"Minden kettőnél nagyobb páros szám előáll két prím összegeként\"."
+    },
+    {
+      "id": 12,
+      "title": "Két rendőr és nyolc gyanúsított",
+      "text": "Kennedy meggyilkolása után Colombo Los Angelesben, Pinkerton pedig New Yorkban látott munkához. Az nyilvánvaló, hogy 8, mindenki által ismert ember között van a gyilkos. Mindkettőjüknek sikerül 2-2 emberre leszorítaniuk a gyanúsítottak számát és szerencsére nem ugyanarra a kettőre, már csak össze kell rakniuk az információikat. Ehhez egy telefonvonal áll rendelkezésükre, melyet lehallgat a maffia. Ha a maffia megtudja ki a gyilkos, akkor azt rögtön megölik. De nem akarják egy hűséges emberüket elveszíteni, tehát amíg nem biztosak, addig nem ölnek meg senkit. Milyen információkat adjon át egymásnak a két nyomozó, hogy a maffia még ne tudja meg ki az elkövető, ők viszont mindketten megbizonyosodjanak róla?",
+      "solution": "Colombo szétosztja négy párra a 8 gyanúsítottat (1-2, 3-4, 5-6, 7-8) úgy, hogy az o gyanusítottjai mind más párban legyenek, valamint mindkét gyanúsítottja vagy az 1234-es csoportban vagy az 5678-es csoportban legyen. A példa kedvéért legyenek az ő gyanúsítottjai az 1-es és a 3-as. Ha Pinkerton gyanúsítottai mind egy négyesben (pl 1234-ben) vannak: Ezt jelzi Colombonak is. Ezután elküldhetik egymásnak a gyanúsítottjaik sorszámának négyes maradékát, a maffia ebbol nem jön rá, hogy ki a gyilkos. Ha Pinkerton gyanúsítottjai külön párban vannak, de nem egy négyesben, akkor Pinkerton küld két párt (pl 12 és 56-ot), hogy az o gyanúsítottjai ezekben vannak. Ekkor Colombo már tudja ki a gyilkos. Elküldi Pinkertonnak, hogy a gyilkos az 12-ben vagy az 56-ban van-e, innen már o is fogja tudni, de a maffia még nem. Végül ha Pinkerton gyanúsítottjai egy párba esnek, akkor küld két párt (pl 12 és 56-ot), hogy az o gyanúsítottjai ezekben vannak. Ebből Colombo megtudja ki a gyilkos. Elküldi Pinkertonnak, hogy a gyilkos sorszáma páros vagy páratlan és kész."
+    },
+    {
+      "id": 13,
+      "title": "Az erkölcstelen falu",
+      "text": "Egy faluban él 50 házaspár. Tudjuk, hogy van legalább egy nő aki megcsalja a férjét. Minden férfi tudja, hogy ki kit csal meg, csak azt nem tudja, hogy a saját felesége megcsalja-e őt, vagy sem. Egyik nap a faluba érkezik egy sámán és így szól az emberekhez: ,,Ebben a faluban van legalább egy nő aki megcsalja a férjét. Ha bárki rájön, hogy a felesége megcsalja őt, akkor éjszaka akassza fel a saját házuk kertjében úgy, hogy másnap reggel mindenki láthassa. Senki sem világosíthatja fel a másikat arról, hogy ki kit csal meg. A falubeliek megfogadják a sámán tanácsát. Eltelik az első éjszaka, de reggel nincs holttest. Második és a harmadik este sem történik semmi. Végül a 10. éjszaka utáni reggel pár férj felakasztotta a feleségét. A kérdés, hogy hány férfit csaltak meg?",
+      "solution": "Ha csak egy embert csalt volna meg a felesége, akkor az az ember tudta volna, hogy senki mást nem csalnak meg, ebből pedig rájön, hogy őt megcsalják (mivel legalább egy valakit megcsalnak), tehát az első éjszaka felakasztja a párját. Viszont azok, akik tudják legalább egy valakiről, hogy csalfa, azok nem tudhatják, hogy csak az (azok) csalja a férjét vagy esetleg az ő arájuk is, tehát az, aki ismer csalfa hölgyet, nem fogja felakasztani a saját társát. A mi esetünkben mivel első éjszaka nem történt akasztás, ebből következik, hogy nem pontosan egy embert csaltak meg, hanem legalább kettőt, mert mindenki ismert egy csalfa asszonyt! Ekkor azonban, hogyha valaki csak egy emberről tudja, hogy megcsalja őt a hitvese, akkor a másik csalfa némber csakis az ő saját kedvese lehet, tehát a második éjszaka fel fogja akasztani. (Ugyanígy tesz egyébként a másik megcsalt ember is, tehát ha pontosan két embert csaltak meg, akkor két akasztás történik a második éjjel.) De akik legalább két nőt ismernek, azok megintcsak reménykednek, hogy az ő nejük ártatlan. A mi esetünkben mivel a második éjszaka sem történt akasztás, ebből következik, hogy nem is pontosan két embert csaltak meg, hanem legalább hármat! Ez az okoskodás így folytatható tovább egészen a tizedik éjszakáig, amikor is épp azok fogják felakasztani egyetlenjüket, akik pontosan kilenc másik nőről tudták, hogy csalfa. Tehát tíz férfit csaltak meg."
+    },
+    {
+      "id": 14,
+      "title": "Elemlámpa",
+      "text": "Van egy elemlámpánk, ami csak akkor világít, ha két jó elemet rakunk bele. Van 8 elemünk, amiknek a fele jó. Határozzunk meg 6 elempár kipróbálása után egy jó elempárt!",
+      "solution": "A 8 elemet jelöljük az ABC első 8 betűjével. A próbáknál a berakott két elem betűjét írjuk: AB, BC, CA, DE, EF, FD. Így vagy világított valamikor a lámpánk, vagy pedig mind az A-B-C, mind a D-E-F hármasban csak egy jó elem volt. De ekkor a maradék két elem már biztosan jó."
+    },
+    {
+      "id": 15,
+      "title": "Aranyrög és a révész",
+      "text": "Az arányásó át akarja juttatni a folyó túl partjára az ott várakozó feleségének az aranyrögöt. A folyón dolgozik egy révész, aki minden mozdíthatót ellop. Az aranyásónak van egy ládikája, egy lakatja, és egy hozzátartozó kulcsa. És a feleségének is van egy lakatja egy hozzá tartozó kulccsal. A láda az egyetlen, ami túl nehéz ahhoz, hogy a révész ellopja. Segítsünk az aranyásónak átjuttatni az aranyrögöt anélkül, hogy ő vagy a felesége átkelne a folyón.",
+      "solution": "Az aranyásó berakja a rögöt a ládába és ráteszi a lakatot, majd átküldi a feleségének. A révész nem tud ellopni semmit, mert a láda túl nehéz, és ami benne van, az le van lakatolva. A túlparton a felesége rárakja a saját lakatját is az aranyásó lakatja mellé, majd visszaküldi a ládát a révésszel. A révész leveszi a saját lakatját, és újra átküldi a ládát. Ezt megkapva, a felesége leveszi a saját lakatját, és hozzájut az aranyröghöz."
+    },
+    {
+      "id": 16,
+      "title": "A farkas, a kecske és a káposzta",
+      "text": "Egy parasztnak át kell vinni a folyón egy farkast, egy kecskét és egy káposztát. A csónak olyan kicsi, hogy csak a paraszt ülhet bele és mellé még vagy csak a farkas, vagy csak a kecske, vagy csak a káposzta fér el. Ha azonban a paraszt magára hagyja a farkast a kecskével, vagy a kecskét a káposztával, akkor az egyik megeszi a másikat. Hogyan kelhetnek át a folyón, hogy senkinek ne legyen bántódása?",
+      "solution": "Világos, hogy a kecskével kell kezdeni. A paraszt átviszi a kecskét, azután visszatér, fogja a farkast, átviszi a túlpartra, otthagyja, majd visszahozza a kecskét az innenső partra. Itthagyja a kecskét és átviszi a farkashoz a káposztát. Végül visszatér a kecskéért, és őt is átviszi a túlpartra."
+    },
+    {
+      "id": 17,
+      "title": "Három lovag és a fegyverhordozók",
+      "text": "Három lovagnak és a fegyverhordózóiknak kell átkelni a folyón egy kétszemélyes csónakkal. A fegyverhordozók azonban félnek, és nem hajlandók gazdájuk nélkül idegen lovagok társaságban maradni. Hogyan hajtsák végre az átkelést úgy, hogy semelyik parton, sem pedig a csónakban ne legyen egyik fegyverhordozó sem idegen lovagok társaságában a gazdája nélkül?",
+      "solution": "Először átkel két fegyverhordozó. Visszatér az egyik fegyverhordozó és átviszi a harmadikat. Visszajön az egyik fegyvrhordozó, és az innentső parton marad gazdájával. A másik két lovag átkel a saját fegyverhordozóihoz. Az egyik lovag fegyverhordozójával visszajön, fegyverhordozóját itthagyja az innentső parton és átviszi magával a harmadik lovagot. Ebben a helyzetben tehát két fegyverhordoó vár még átkelésre. Ekkor a harmadik fegyverhordozó visszaevez és az egyik fegyverhordozót átviszi. Végül az utolsó fegyverhordozóért átmegy a saját lovagja."
+    },
+    {
+      "id": 18,
+      "title": "Hittérítők és kannibálok",
+      "text": "Áll egy folyóparton 3 hittérítő, és 3 kannibál, át kell kelniük a folyón egy csónakkal, amibe csak két ember fér bele. Ha egy hittérítő egyedül marad a parton, miután elment a csónak, azt azonnal megeszik a kannibálok. Hogyan jutnak át?",
+      "solution": "Fontos, hogy a kannibálok nem eszik meg a hittérítőket rögtön, hanem csak akkor, ha egy darabig egyedül kell várniuk a parton. Először átmegy egy hittérítő egy kannibállal, majd visszajön a kannibál, odaadja a ladikot a két hittérítőnek, akik átkelnek, majd egyikük visszajön a ladikkal és átvisz vele egy kanibált, de utána ő marad a túlparton és a kanibál átmegy a másik két kannibálért."
+    },
+    {
+      "id": 19,
+      "title": "Átkelés a folyón, amin sziget van",
+      "text": "Négy lovagnak és a fegyverhordózóiknak kell átkelni a folyón egy csónakkal, amelyben legfeljebb két ember fér el. A fegyverhordózók azonban nem hajlandók gazdájuk nélkül olyan társaságban maradni, amiben idegen lovag is van. A folyó közepén van egy sziget, amelyen partra lehet szállni. Hogyan hajtsák végre az átkelést úgy, hogy sem valamelyik parton, sem a szigeten, sem pedig a csónakban ne legyen egyik fegyverhordozó sem idegen lovagok társaságában a gazdája nélkül?",
+      "solution": "Jelöljük a lovagokat nagy betűkkel: A, B, C és D. A hozzájuk tartozó fegyverhordozókat pedig rendre kisbetűkkel: a, b, c és d. Először a D lovag vigye át a fegyverhordozóját a szigetre, majd térjen vissza. Másodszor a C lovag vigye át a fegyverhordozóját a túlsó partra, majd térjen vissza. Következő lépésben a C lovag átviszi a D lovagot a szigetre, majd felveszi a túlsó parton lévő c fegyverhordozóját, és visszatér vele az innentső partra. Ezután az A, B, és C lovagok a fegyverhordozóikkal átkelnek a túlsó partra úgy, hogy közben nem kötnek ki a szigeten (lásd előző feladat megoldása). Ezt követően az A lovag fegyverhordozójával visszamegy a szigetre, saját fegyverhordozóját otthagyja a d fegyverhordozóval a szigeten, a D lovagot pedig átviszi a túlsó partra. Legvégül pedig a c fegyverhordozó egyenként áthozza a szigetről az a és a d fegyverhordozót."
+    },
+    {
+      "id": 20,
+      "title": "Egy szakasz katona",
+      "text": "Egy szakasz katona érkezik egy folyóhoz, amin át kell kelne. A hidat lerombolták, és a folyó mély. A parancsnok egyszercsak észrevesz két fiút, akik nem messze a parttól csónakáznak. A csónak azonban kicsi, és abban vagy csak egy katona, vagy csak a két fiú tud átkelni, többen nem férnek bele. Végül az összes katona átkelt a folyón ezzel az egy csónakkal. Hogyan?",
+      "solution": "A gyerekek átkeltek a folyón. Az egyik fiú ottmaradt, másikuk pedig visszajött a katonákhoz, és kiszállt. Ezután beszállt egy katona és átkelt a túlpartra. Az a fiú, aki ottmaradt a másik parton, visszahozta a csónakot a katonákhoz, ahol beültette társát, és ketten áteveztek a túlpartra. Ott társa kiszállt, és ő újra visszahozta a csónakot a katonákhoz, amin újabb katona tudott átkelni a túlpartra. Ezt mindaddig ismételték, amíg minden katona át nem kelt."
+    },
+    {
+      "id": 21,
+      "title": "Vasútállomás",
+      "text": "A B vonat közeledik az állomáshoz, de hamarosan utoléri az A gyorsvonat, amelyet előre kell engednie. Az állomáson a fő vágányról elágazik egy mellékvágány, ahová egy időre vagonokat lehet kitolni a fővágányról. A mellékvágány azonban olyan rövid, hogy csak a B vonat egy része fér el rajta. Hogyan engedje előre a B vonat az A vonatot?",
+      "solution": "Jelöljük a gyorsvonatot A-val, melyet a B vonatnak előre kell engednie. Menjen a B vonat előre a fővágányon, amíg teljes hosszával túlhalad a kitérő vágányra vezető elágazáson. Ezután a B vonat visszatolat a kitérő vágányra, és annyi vagont otthagy, amennyi elfér rajta, majd a B vonat megmaradó része a mozdonnyal együtt újra előremegy a fővágányon. Ezután az A vonat is előremegy a fővágányon, amíg ő is teljes hosszával túlhalad a kitérő vágányra vezető elágazáson. Ezután az A vonat utolsó kocsiját összekapcsolják a B vonatnak a kitérő vágányon maradt részével. Az A vonat előrehúzza ezt a részt a kitérővágányról a fővágányra, majd az A vonat a mögé kötött néhány B vagonnal visszatolat a fővágányon, és lecsatolják róla a B-hez tartozó vagonokat. Ha a B vonat maradék része mostmár elfér a kitérővágányon, akkor hátratolat és elengedi az A vonatot. Ha még mindig túl hosszú, akkor az előző eljárást megismételve a B vonat végéről újabb vagonokat viszünk át az A segítségével."
+    },
+    {
+      "id": 22,
+      "title": "Luxuslakosztályok",
+      "text": "Nyikolajnak egy hétre Szentpétervárra kell mennie. Ott sokkal jobb a szállás, mint Visnyij Volocsokban, de persze drága is. A tulajdonos nem fogadja el fizetségül a rubelt. Nyikolajnak van egy hét szemes ezüst nyaklánca, és abban állapodik meg a szállodatulajdonossal, hogy napi egy láncszemet fizet a szállásért. A szállodás ragaszkodik hozzá, hogy Nyikolaj minden reggel fizessen, de hogy a lehető legkevesebb kárt tegyék a nyakláncban, az egész heti ottlakás alatt legfeljebb egy láncszemet szabad szétnyitnia. Hogyan fizet Nyikolaj a tulajdonosnak?",
+      "solution": "A harmadik szemet kell szétnyitni. Ezzel három részre bomlik a lánc, egy 1 szemesre, egy 2 szemesre és egy 4 szemesre. Az első éjszakáért odaadod az 1 szemes láncot. A másodikért a 2 szem hosszút, és visszakéred az 1 szemest. A harmadik után megint oda adod az 1 szemest. A negyedikért odaadod a 4 szemest, és visszakéred a másik kettőt. A fennmaradó három napon ugyanúgy megy a fizetés, mint az első hármon. (Egy ilyen problémát meg kellett tudni oldani a hajdani Oroszországban, ha éltben akart maradni az ember.)"
+    },
+    {
+      "id": 23,
+      "title": "Igazságos osztozkodás",
+      "text": "Három haramia egy zsák aranyat rabolt, amit szerettek volna igazságosan három részre osztani. Szerencsétlenségükre azonban nem volt náluk mérőedény, így szemre kellett elosztani az aranyat. Akarhogyan is osztogatták azonban az aranyat, nem jutottak egyezségre. Elkezdtek vitatkozni és kis hiján összeverekedtek. Átmertek egyik halomból a másikba, a másikból a harmadikba, de egyikük midig elégedetlen volt a neki jutó résszel.\n- Bárcsak ketten lennénk - kiáltott fel dühösen az egyik rabló - akkor egy szempillantás alatt megosztoznánk. Két egyforma részre osztanám az aranyat, a másik meg választana. Így mindketten elégedettek lennénk.\nEzután elgondolkodtak azon, hogy hogyan tudnák elosztani úgy az aranyat, hogy mindhárman elégedettek legyenek, és mindegyik meg legyen győződve arról, hogy nem kapott kevesebbet a harmadánál. Ki is gondolták, hogyan csinálják. Gondoljátok ki ti is!",
+      "solution": "Valaki szétönti a búzát három szerinte egyforma részre, amelyikből neki bármelyik jó lesz. A következő megmondja, hogy szerinte a háromból melyik a legkisebb. Ha ezzel a harmadik személy egyetért, akkor azt a kupacot annak adják, aki szétosztotta az aranyat három részre. Ezután a maradék arayon a másik két ember a már jól ismert módon meg tud igazságosan osztozni. Abban az esetben, ha a harmadik személy azt gondolja, hogy a második személy által megnevezett kupac nem kisebb a harmadánál, akkor ő vegye el azt a kupacot. A második ebben az esetben elveheti a szerinte legnagyobbat, a maradék peig az elsőnek jut."
+    },
+    {
+      "id": 24,
+      "title": "Ivási probléma",
+      "text": "Oroszországban a sakk és az érdekes feladatok megoldása mellett az ivás az egyik legáltalánosabb kikapcsolódási forma. Vaszilij szerzett egy 12 literes vödörre való vodkát, és szeretné azt megosztani Pjotrral. Pjotrnak azonban csak egy 8 literes meg egy 5 literes üres palackja van. Hogyan oszthatnák mégis a vodkát két egyenlő részre?",
+      "solution": "A 12 literes vödörből kiöntünk 8 litert a 8 literes palackba, majd abból 5-öt átöntünk az 5 literesbe. Így 3 liter marad a 8 literes palackba, és 4 liter a vödörben. Ezután visszaöntjük az 5 litert a vödörbe, így ott 9 liter lesz. Ezt követően a 8 literes palackban lévő 3 litert átöntjük az 5 literes palackba, majd a megüresedett 8 literes palackot megtöltjük a vödörből, amiben így 1 liter marad. Legvégül a 8 literes palackból teletöltjük az 5 literes palackot, amiben most 3 liter van, tehát végeredményben 2 litert töltünk hozzá, így a 8 literesben 6 liter marad, amit akartunk."
+    },
+    {
+      "id": 25,
+      "title": "Víz a patakból",
+      "text": "Van egy 9 literes, és egy 4 literes vödrünk, és egy patak, amiből vizet meríhetünk. Pontosan 6 liter vízre lenne szükségünk. Hogyan járjunk el?",
+      "solution": "Merítsük tele a 9 litereset, majd ezzel töltsük meg a 4 litereset kétszer és mindkétszer űrítsük is ki. A maradék egy liter vizet is töltsük a 4 literesbe. Ezután újra töltsük tele a 9 litereset és töltsünk a 4 literesbe amennyit csak lehet, ez 4-1=3 liter, tehát épp 6 liter maradt a 9 literesben."
+    },
+    {
+      "id": 26,
+      "title": "Mérleg I.",
+      "text": "Van 10 kupac, kilencben 10 grammos kis golyók, egyben 9 grammos kis golyók. Az összes golyó egyformán néz ki. Egy közönséges skálás mérleg áll rendelkezésre, ami számszerűen mutatja a rárakott súlyt. Hogy lehet egyetlen egy méréssel meghatározni, hogy melyik kupacban vannak a 9 grammos golyók?",
+      "solution": "Fontos, hogy minden kupacban sok kis golyó van. Az első kupacból egy, a másodikból kettő, stb a tizedikből tíz golyót veszünk ki, és ezeket egyszerre rakjuk fel a mérlegre. Így amennyivel kevesebb grammot mutat a mérleg, mint (1+2+...+10)-szer 10 = 550, annyiadik kuapcban vannak a 9 grammos golyók."
+    },
+    {
+      "id": 27,
+      "title": "Mérleg II.",
+      "text": "Van 5 golyó, ezek súlyát szeretnénk megmérni. A méréshez egy egykarú mérleget használhatunk, amire egyszerre csak egy vagy két golyót tehetünk rá. Arra is fel kell készülnünk, hogy az egyik mérés pontatlan lesz. Meghatározhatjuk-e legfeljebb 9 méréssel az összes golyó súlyát? És 8 méréssel?",
+      "solution": "A golyókat jelöljük A, B, C, D, E-vel. A méréseknél a golyók betűi jelentik a mérendő golyókat. Ha 9 mérés áll rendelkezésünkre, akkor megfelelő az alábbi algoritmus: A, B, AB, C, D, CD. Ha az A-B vagy a C-D párnál nem stimmel az összeg, akkor mégegyszer lemérve a pár tagjat külön-külön, majd egyszer lemérve az E-t 9 méréssel megvagyunk ebben az esetben. Ha a párok stimmelnek, akkor háromszor mérjük le E-t, így kétszer jó értéket kapunk erre is, ismét csak 9 mérést használtunk. Ha csak 8 mérési lehetőségünk van: Az első hét kérdés legyen: AB, AC, BC, CD, CE, DE, AE. Ha az A-B-C és C-D-E háromszögekből ugyanazt számolhatjuk ki C-re, akkor az első hat mérés helyes, mindent meg tudunk határozni. Ha nem, akkor AE helyes. Ekkor vagy AB+CE=BC+AE vagy ED+CA=DC+AE. Legyen például az első. (A másik eset ugyanígy megy.) Ekkor AB, CE, BC mérések mind jók. Mérjük le a D-t egyedül. Ha CE+2D=DC+DE, akkor ezek a mérések is stimmelnek, a C-D-E háromszögből meghatározhatjuk mindhárom csúcs súlyát, majd az AE és BC segítségével a másik kettőét is. Ha viszont nem igaz az egyenlőség, akkor itt van a rossz mérés, tehát az AC mérés helyes volt. Ebből meg lehet határozni az A, B, C, E súlyokat, a D-t pedig épp most mértük le."
+    },
+    {
+      "id": 28,
+      "title": "Nagyapó reggelije",
+      "text": "Nagyapó nem eszik meg akármit: a főtt tojást például csak akkor, ha az se több, se kevesebb, pontosan 15 percig főtt. Egy nap téged kér meg, hogy készíts neki reggelit, és te csak két időmérő eszközt találsz az egész házban: két homokórát. A nagyobbikban 11 perc alatt pereg le a homok, a kisebbikben 7 perc alatt. Mit teszel? (Nagyapó egyre türelmetlenebb!)",
+      "solution": "Csak úgy kezdheted, hogy megfordítod mindkét homokórát. Mert ha csak az egyiket fordítod meg, akkor azután, hogy lepergett benne a homok, visszakerülsz a kezdhelyzetbe. Két egyszerű meoldás létezik: Megfordítod tehát mindkét homokórát, és akkor teszed fel a tojást,   amikor a kisebbikben (7 perces) lepereg a homok. Hagyd a homokot   leperegni a nagyobbikban is (ez 4 perc), és fordítsd meg, majd hagyd   újra leperegni benne a homokot. Mire ez megtörténik, a tojás éppen 15   percet főtt. VAGY A homokórák megfordításával egy időben tedd fel főni a tojást. 7 perc   múlva a kisebbiket megfordítod, ekkor a nagyobbikban 4 percre való   homok van még. Amikor e 4 perc elteltével a homok a nagyobbikban is   lepereg, akkor a 7 perces tetejében 3 percnyi homok van, de ami még   fontosabb: 4 percnyi hullt le az aljába. Megkönnyebbült sóhajjal   megfordítod tehát a 7 perceset, és megvárod, amíg abban is lepereg a   homok (4 percnyi), s nyomban feltálalod nagyapónak a reggelit. Ez a   megoldás ráadásul pontosan 15 percik tart, és ennél gyorsabban nem   készülhetsz el a reggelivel."
+    },
+    {
+      "id": 29,
+      "title": "Időmérés kötéllel",
+      "text": "Van két kötelünk, amiket a végükön meggyújtva, mindegyik pontosan 1 óra alatt ég le. Van nálunk tűzszerszám, és az a feladatunk, hogy a kötelek segítségével kimérjünk pontosan egy negyed órás időintervallumot. Hogyan csináljuk? Figyelem, fontos, hogy a kötelek nem feltétlenül homogének, azaz lehet, hogy nem fél óra alatt égnek le a felükig! Az se biztos, hogy ugyanolyan tempóban égnek! Tehát ha a megoldásodban szerepel a \"félbehajtom\" vagy a \"közepén meggyújtom\", akkor gondold át újra, hogy nem használtad-e ki ezt a tulajdonságot!",
+      "solution": "Az egyik kötelet gyújtsuk meg mindkét végén, a másikat csak az egyiken. Amikor az első kötél leégett (fél óra után), akkor maradt egy félóra alatt leégő kötelünk, amit mindkét végén meggyújtva épp negyed óra alatt ég le."
+    },
+    {
+      "id": 30,
+      "title": "Falióra",
+      "text": "Egy embernek van otthon egy faliórája, amit elfelejtett felhúzni, így az megállt. Mikor észrevette, felhúzta gyorsan, hogy járjon, de persze rossz időt mutatott. Ezek után elment egy barátjához, akinek pontosan járt az órája, beszélgetett vele egy kicsit, majd hazament. Nem tudja, hogy pontosan meddig tartott az út a barátjához, de amikor hazaért be tudta állítani a falióráját. Hogy lehetséges ez?",
+      "solution": "Tegyük fel, hogy otthon az órája A időt mutatott, amikor elment otthonról, a barátja órája B időt mutatott érkezéskor és C-t, amikor távozott, valamint hazaértekor D-t látott a saját óráján. Ha az ő órája mindig T-vel tér el a valós időtől és az utat mindkét irányban S idő alatt teszi meg, akkor fennáll az alábbi két egyenlet: A+T+S=B, C+S=D+T. Ezeknek a megfelelő oldalait összeadva azt kapjuk, hogy A+T+S+D+T=B+C+S, azaz 2T=B+C-A-D, tehát megtudja állapítani, hogy hány perccel kell arrébb állítania otthoni óráját."
+    },
+    {
+      "id": 31,
+      "title": "Robban a híd",
+      "text": "Négy katona szeretne átjutni egy hídon, ami 18 perc múlva robban. Éjszaka van, és a sötétben csak elemlámpával tudnak közlekedni, viszont mindössze egy elemlámpájuk van. Ráadásul a híd keskeny és egyszerre csak ketten tudnak átkelni rajta. A katonák közül néhányan megsebesültek, ezért egyesek lassabban, mások gyorsabban tudnak átmenni. Ha egyedül kéne menjenek, akkor rendre 1, 2, 5 és 10 perc alatt érnének át a hídon, és természetesen ugyanennyi idő visszafele is. Ha viszont két katona együtt megy, akkor a lasabbik ideje számít. Hogyan érhetnek át biztonságban a hídon?",
+      "solution": "Először átmegy az 1-es katona a 2-essel (2 perc). A 2-es visszahozza az elemlámpát (2 perc). Ezután következik a trükkös lépés, melyben az 5-ös a 10-essel megy át, majd az 1-es visszahozza az elemlámpát (10 + 1 perc). Végül átmegy az 1-es a 2-essel (2 perc). És ez mindösszesen 17 percet vesz igénybe."
+    },
+    {
+      "id": 32,
+      "title": "Száz törpe",
+      "text": "Egy börtönőr 100 törpét tart fogva. Egy nap eljön a kivégzés ideje. De a börtönőr ad egy esélyt a törpéknek. Minden törpe fejére tesz egy sapkát. A sapkák színe három féle lehet: piros, sárga vagy kék. A színeket a börtönőr választhatja meg tetszőlegesen. A törpék egy egyenes sorban állnak, így mindenki látja az előtte állókon lévő sapkákat, de a sajátját és a mögötte levőkét senki nem látja. A börtönőr egyesével megkéri a törpéket, hogy tippeljék meg a saját sapkájuk színét. Ha valaki eltalálja, akkor megmenekül, ha azonban téved, akkor meg fog halni. A tippelést az összes többi törpe is hallja, a tippelés sikerességét azonban csak akkor tudják meg, amikor már minden törpét végigkérdezett a börtönőr. A törpék a sapkák megkapása előtt megbeszélhetnek akármilyen stratégiát, még azt is ők dönthetik el, hogy a börtönőr milyen sorrendben kérdezze őket. Hány törpe tud megmenekülni? Egy kézenfekvő megoldás, hogy a sor végén álló törpe az előtte álló törpén lévő sapka színét tippeli, ezzel elárulva az előtte lévő a sapkájának a színét, és így tovább. Ezzel a módszerrel a törpék fele biztosan meg tud menekülni. Valójában azonban 99 törpe is meg tud menekülni teljes biztonsággal. Hogyan?",
+      "solution": "A törpék azt kérik, hogy a börtönőr hátulról kezdve egyesével kérdezze őket. A törpék megegyeznek, hogy a piros 1-et jelent, a sárga 2-őt, a kéket pedig a 3-as számnak feleltetik meg. A leghátsó törpe összeadja az összes előtte álló törpén lévő sapkákhoz rendelt számokat, azaz 99 darabot, és veszi a kapott összegnek a 3-as maradékát. Azt a színt tippeli, ami ehhez a maradékhoz van rendelve. Az utolsó törpe 2/3 eséllyel meghal, az összes előtte álló törpe azonban meg tud menekülni. Az előtte álló törpe ugyanis látja az előtte lévő 98 sapkát, és hallotta azt, hogy mi a hármas maradéka ezeknek a sajátjával együtt, amit nem lát. Ki tudja tehát számolni, hogy mi a saját sapkájához tartozó színhez rendelt szám. Be tudja tehát mondani a saját sapkájának a színét, és ezután már az előtte lévő is tudni fogja a sajátját, és így tovább."
+    },
+    {
+      "id": 33,
+      "title": "Ali baba és a negyven rabló",
+      "text": "A gonosz dzsinn bezárta egy barlangba és elaltatta Ali babát és a negyven rablót. A bűvös álomból csak az ébred fel, akit a dzsinn felkölt. A barlangban nincs más, csak egy kétállású kapcsoló, ami kezdetben le van kapcsolva. Néha valamelyiküket felébreszti a dzsinn és akkor az illető megnézheti a kapcsoló állását és ha akar, változtathat rajta. Tudjuk, hogy a dzsinn mindegyikőjüket mindennap felébreszti legalább egyszer, de ők nem tudják mérni az idő múlását. A dzsinn csak akkor engedi őket szabadon, ha Ali baba egyszer ki tudja jelenteni, hogy már mindenki legalább egyszer fel volt ébresztve, de ha téved, akkor halálok halálával lakolnak mind. Milyen stratégiát beszéljenek meg elaltatásuk előtt a zsiványok, hogy biztosan megmeneküljenek az örökös alvásból?",
+      "solution": "A stratégia a következő. A kapcsolót csak Ali baba kapcsolhatja le, mindenki más csak fölkapcsolhatja. Ha valaki fölébred, és a kapcsoló fel van kapcsolva, akkor nem csinál semmit. Illetve akkor sem csinál semmit, ha korábban már egyszer felkapcsolta a kapcsolót. Ha viszont a kapcsoló le van kapcsolva, és az illető még nem kapcsolt föl korábban egyszer sem, akkor felkapcsolja. Ali babának az a dolga, hogy amikor fölébred lekapcsolja a kapcsolót, ha fel van kapcsolva. És eközben azt is számolja, hogy hányszor kapcsolta már le a kapcsolót. Ha már negyvenszer lekapcsolta, akkor kijelentheti, hogy biztosan mindenki fel volt már ébresztve. És ez egy idő után biztosan be fog következni, mert minden nap mindenkit felébreszt az dzsinn."
+    },
+    {
+      "id": 34,
+      "title": "Oroszlánok és a mérgezett hús",
+      "text": "Egy szigeten él 99 racionálisan gondolkodó oroszlán. Egy nap leesik közéjük egy darab hús. Aki megeszi, az elálmosodik és elalszik, vagyis ,,hússá válik egy időre. Az oroszlánok semmiképp sem szeretnék, ha megennék őket, viszont ha lehet, szeretnének jól lakni. Egy húst csak egy oroszlán ehet meg és semmiféle szövetséget nem köthetnek egymással. Érdemes-e a legközelebb álló oroszlánnak megennie a húst? És mi lenne a helyzet, ha száz oroszlán lakna a szigeten?",
+      "solution": "Hogy megeheti-e egy oroszlán a húst, az érdekes módon attól függ, hogy összesen páros vagy páratlan sok oroszlán van a szigeten. Ha egy oroszlán lenne csak, akkor az nyugodtan megehetné, hiszen senki nem veszélyeztetné, amíg alszik. Ha viszont kettő lenne, akkor egyik se ehetné meg, mert a másik megenné őt. Ha három van, akkor a legközelebb álló megeheti a húst, hiszen utána ketten maradnak, és akkor már egyik sem meri megenni a húst, lásd az előző gondolatmenetet. És így tovább. Azt kapjuk tehát, hogy páratlan sok oroszlán esetén meg lehet enni a húst valakinek, páros sok esetén viszont nem ésszerű."
+    },
+    {
+      "id": 35,
+      "title": "Hölgyek társasága",
+      "text": "Egy társaságban van három hölgy. Szeretnék kideríteni, hogy közülük ki a legidősebb és a legfiatalabb, de úgy, hogy ezen kivül semmi más informaciót ne szerezhessen egyikük sem. Ehhez persze annyit sugdolózhatnak, amennyit akarnak. Hogyan csinálják?",
+      "solution": "Jelöljük a hölgyek korát A, B, C-vel. Állapodjon meg az A és a B korú hölgy valamely tetszőlegesen választott X számban, és súgják meg C-nek A+X-et illetve B+X-et. Ekkor C tudni fogja, hogy melyikük az idősebb vagy netán, hogy azonos korúak-e, de azt nem, hogy melyikük hány éves. Hozza nyilvánosságra, hogy melyikük a fiatalabb. (De figyelem, azt ne árulja el, hogy mennyivel!) Hasonlóan eljárva a másik két párral, bármely kettőről kiderül közülük ki az idősebb, ezek után már tudni fogják a legidősebbet és legfiatalabbat is. Azt is könnyen láthatjuk, hogy valóban egyikük sem fogja tudni senki másnak a korát, hiszen senki nem ismer mást, mint a saját korát, a másik kettő korának különbségét és néhány tetszőlegesen választott számot."
+    },
+    {
+      "id": 36,
+      "title": "A kör alakú asztal",
+      "text": "Két ember játszik egy játékot. A játék a következo: felváltva raknak egy 1 méter átmérőjű kör alakú asztalra 1 centiméter átmérőjű pénzérméket. A pénzérmék nem fedhetik egymást. Az veszít, aki nem tud rakni. Melyik játékosnak van nyerő stratégiája és mi ez a stratégia?",
+      "solution": "A kezdőnek van nyerő stratégiája, mégpedig az, hogy először pontosan az asztal közepére helyez egy érmét, majd mindig az előző érme helyét középpontosan tükrözi az asztal közepére, mint középpontra, és arra a helyre rak."
+    },
+    {
+      "id": 37,
+      "title": "Menetrend",
+      "text": "Barátunk New Yorkban él. Két barátnője van, az egyik Bronxban, a másik Brooklynban. Barátunk mindkettőt egyformán kedveli, annyira, hogy nem is tud dönteni. Minden délután a sorrsa bízza kérdést: metrómegállóban arra a vonatra száll, amelyik előbb jön. A hónap végén számot vet, és kiderül, hogy a bronxi barátnojénél 24-szer volt, a másiknál csak 6-szor. A tendencia a következo hónapban is azonos, úgy hogy véletlenről szó sem lehet. Ugyanakkor nyilvánvaló, hogy ugyanannyi vonat jár minkét irányban. Hogy lehet ez?",
+      "solution": "Például úgy lehetséges, hogy Bronx felé óra:24-kor és óra:48-kor indulnak vonatok, míg Brooklyn irányába óra:00-kor és óra:30-kor. Így ha barátunk véletlenszerűen érkezik az állomásra, akkor 24 a 6-hoz az esélye, hogy Bronx felé megy."
+    },
+    {
+      "id": 38,
+      "title": "Hármas revolver párbaj",
+      "text": "Három revolverhős kihívja egymást párbajra, méghozzá egyszerre. Felállnak egymástól egyenlő távolságra, és az a szabály, hogy sorban lőnek, egymás után, és egyszerre mindig csak egyet. Kisorsolják, hogy ki lő elsőnek, majd majd másodiknak, végül utolsónak. Addig folytatják, míg csak egy marad. Azt tudjuk még róluk, hogy az egyik 100%-os biztonsággal céloz, a másik 80%, a harmadik pedig 50% biztonsággal találja el a célt, és egyikük sem céloz direkt mellé. Kinek van a három közül a legnagyobb esélye a túlélésre?",
+      "solution": "Hamarosan..."
+    },
+    {
+      "id": 39,
+      "title": "Motorcsónak",
+      "text": "Egy motorcsónakos a parttól 10 km-re van, amikor sűrű ködbe kerül, s emiatt elveszti tájékozódóképességét. Üzemanyaga már csak 66 km megtételére elegendő. Milyen útvonalat tervezzen fedélzeti számítógépével a csónakos, hogy biztosan elérje a partvonalat?",
+      "solution": "Hamarosan..."
+    },
+    {
+      "id": 40,
+      "title": "A sziklamászó",
+      "text": "Egy 40 méter magas függőleges sziklafal tetejéről egy hegymászó le szeretne jutni. Semmije sincs, csak egy 30 méter hosszú kötele és egy bicskája. A sziklafal felénél, azaz 20 méteres magasságban van egy kiszögellés, ahol megállhat. A sziklafal tetején vagy a kiszögellésnél odakötheti a kötele végét, de azt rángatással távolról kioldani nem tudja. Ugrani nem ugorhat. Hogyan tud lejutni?",
+      "solution": "A hegymászó egy 10 és 20 méteres darabra vágja a 30 méteres kötelét. A 10 métereset odaköti a szikla tetejéhez, és a másik végére csinál egy pici hurkot, amin keresztüldugja a másik kötéldarabot úgy, hogy 10-10 méter lógjon le a hurok mindkét oldalán. Ezután leereszkedik a 10 méteres kötelén a hurokig, majd a dupla kötélen leereszkedik a peremig, ahol a 20 méteres kötéldarabot le tudja húzni. Végül a peremről leereszkedik a 20 méteres kötéllel."
+    },
+    {
+      "id": 41,
+      "title": "Két férfi, két nő, két gumi",
+      "text": "Két férfi felhív magához két utcalányt. Mindketten szeretnének közösülni mindkét lánnyal, de csak két darab óvszerük van. Mind a négyen biztonságos szexet akarnak, azaz együkük sem szerene elkapni semmiféle nemi betegséget a többiektől. Megoldható-e mégis a kívánságuk?",
+      "solution": "Legyen a két férfi András és Béla, a két nő pedig Anna és Brigitta. A trükk az, hogy az első közösülés alkalmával az egyik gumira rá kell húzni a másikat. Jelöljük a külső gumit B-vel a másikat pedig A-val. Első alkalommal közösüljön András és Anna. Ekkor az A gumi belső fele ér Andráshoz, a B gumi külső fele pedig Annához. András magán hagyja az A gumit, de a B-t lehúzza, és közösül Brigittával is. Tehát az A gumi külső fele ér Brigittához. Ekkor András már elvégezte a dolgát, következik Béla. Béla először a B gumit húzza fel, ami belülről még tiszta, kívülről pedig eddig csak Anna ért hozzá, tehát Annával nyugodtan közösülhet. Legvégül ugyanerre a gumira ráhuzza az A gumit, aminek a külsejét eddig Brigitta használta, és közösül Brigittával is."
+    },
+    {
+      "id": 42,
+      "title": "Víztől írtózó bogarak",
+      "text": "Egy ember egy szobában van, és le szeretne feküdni, de a szoba tele van bogarakkal, amelyektől írtózik, és nem szerené, ha megzavarnák a bogarak alvás közben. A bogarak mindenhova be tudnak mászni, sőt a plafonra is fel tudnak mászni, és onnan - vagy bárhonnan, ahova eljutnak - függőleges pókfonálon keresztül le tudnak ereszkedni. Vizont a bogarak félnek a víztől. Hogyan oldja meg emberünk, hogy nyugodtan tudjon aludni? Természetesen nem szeretne vizes lenni ő sem, és nem is szeretné magát hermetikusan elzárni, hiszen szeretne friss levegőt kapni. Nincs kell keresni (szökőkút és mozgó víz elvetve). A bogarak továbbá pontszerűek, tehát bármilyen tartóedény szélére le tudnak ereszkedni a plafonról, ha függőlegesen szabad az út.",
+      "solution": "Vegyük körbe az ágyat vízzel. Például a padlóra vizet öntünk. Felülről pedig egy speciális esernyővel védjük meg magunkat a plafonról leereszkedő bogarak ellen. Ha csak egyszerűen egy vízzel teli tartóedényt helyeznénk a fejünk fölé, az azért nem lenne jó, mert a tartóedény peremére le tudnak ereszkedni a pontszerű bogarak, és onnan az edény aljára is tudnak mászni, ahonnan tovább tudnak ereszkedni a fejünkre. A speciális esernyőt viszont úgy képezzük ki, hogy az esernyő pereme visszakunkorodjon az esernyő alá, és mint egy csatorna fusson végig az esernyő belső falán. Ebbe a kis csatornába vizet öntve, megakadályozzuk azt, hogy az esernyő tetejére leereszkedő bogarak leereszkedve az esernyő széléig, onnnan vissza tudjanak mászni az esernyő belső felszínére."
+    },
+    {
+      "id": 43,
+      "title": "Villanykörték",
+      "text": "Egy villanyszerelő bekötött a pincében három lámpát, amelyeknek fenn, a lakásban van a kapcsolójuk. De sajnos elfelejtette, hogy melyiket melyikhez kötötte. Fent van a lakásban, és csak egyszer szeretne lemenni a pincébe, majd visszajönni. Hogy állapítja meg, hogy melyik lámpához melyik kapcsoló tartozik?",
+      "solution": "Felkapcsol egyet , így hagyja néhány percig, majd lekapcsolja. Felkapcsol egy másikat majd lemegy. Lenn ég egy, a maradék kettőből pedig az égett amelyik meleg."
+    },
+    {
+      "id": 44,
+      "title": "Erőegyensúly",
+      "text": "Egy kiegyensúlyozott mérleg egyik serpenyőjében egy vízzel félig telt pohár van. Megbomlik-e az egyensúly, ha az egyik ujjadat - a pohár érintése nélkül - óvatosan beledugod a vízbe?",
+      "solution": "Igen, a mérleg ki fog billenni. Ahogy az ujjunkat belemerítjük a vízbe, felfelé mutató erő fog rá hatni. Arkhimédész törvénye szerint a vízbe merülő vagy vízben úszó testekre felhajtóerő hat, és ennek az erőnek a nagysága egyenlő a test által kiszorított víz súlyával. Newton harmadik törvénye szerint pedig az ujjnak a víz által rá kifejtett erővel ellentétes irányú és ugyanakkora nagyságú erővel kell hatnia a vízre. Ez az erő átadódik a pohárnak, majd a mérlegnek."
+    },
+    {
+      "id": 45,
+      "title": "Ványa és a vizesvödör",
+      "text": "Egy hideg téli reggelen Ványa lemegy a folyóhoz, és felhoz egy vödör hideg vizet izbája (kunyhója) pitvarába. Télen Oroszországban évszázadokon át a befagyott folyó jegébe vágott lék volt a hagyományos vízvételi hely. Ványa büszke rá, hogy egyáltalán nem loccsantotta ki a vizet, pedig színültig töltötte a vödröt. A vízben jégdarabok úsznak, és a vízből kiálló részük a vödör pereme fölé nyúlik. Az anyja azt mondja Ványának, hogy szedje le a vízről a jégdarabokat, és dobja is ki őket, mert ha elolvadnak a vödörben, ki fog csordulni a víz. Indokolt-e ez az intelem?",
+      "solution": "Nem indokolt. Arkhimédész törvénye szerint a vödörben úszó jég tömege egyenlő kell legyen a kiszorított vízével. Az olvadás nyilvánvalóan nem változtatja meg a megfagyott víz tömegét, ezért az olvadással előállt víz térfogata pontosan egyenlő lesz a jég által kiszorított vízével. Az olvadástól tehát a víz nem fog kicsordulni a vödörből. De hogy Ványa anyja is elégedett legyen, vegyük figyelembe a feladat másik vonatkozását is, mert nem csak ovadásból adódhat térfogatváltozás. A víznek különleges tulajdonsága, hogy 4 fokon a legnagyobb a sűrűsége. 0 és 4 fok között összehúzódik a hőmérséklet emelkedésével, 4 fok fölött pedig tágul, mint a legtöb anyag. A víz olvadáskor tehát nem csordul ki a vödörből, és ahogyan kezd felmelegedni, előbb lesüllyed a felszjne a vödörben, majd lassan emelkedik, s ha az előszoba elég meleg, akkor a víz ettől a hőtágulástól bizony kicsordulhat. Oroszországban azonban fűtetlen a pitvar (a szenyi), s télen nem sokkal melegebb 0 foknál, a hőtágulás tehát nem járhat ilyesmivel."
+    },
+    {
+      "id": 46,
+      "title": "A tea lehűtése",
+      "text": "Nyikolaj üzleti ügyben Visnyij Volocsokba utazik. A szállodában nincs konyhai felszerelés (igazság szerint semmilyen más felszerelés sincs), Nyikolaj tehát magával visz egy elektromos melegítőt, hogy vizet forralhasson. Reggelente teát főz, majd cukrot tesz bele, és várja, hogy iható hőmérsékletűre hűljön. Némely reggeleken kicsit később, a már hűlőfélben lévő teába teszi bele a cukrot. Mikor hűl le hamarabb a teája?",
+      "solution": "Bármely hőátadási folyamatra igaz, hogy minél nagyobb a két test közötti hőmérséklet-különbség, annál nagyobb közöttük a hőcsere. Ebben az esetben a második test a tea körüli levegő. A tea egységnyi idő alatti hővesztesége nagyobb tehát, ha a tea maga melegebb. Ha Nyikolaj azonnal beleszórja a teába a cukrot, akkor ezzel mindjárt kezdetben lecsökkenti a tea hőmérsékletét, a cukor oldódása endoterm folyamat lévén, s ezzel egyszersmind csökkenti a tea hőleadását. Következésképp a későbbi cukorhozzáadás a gyorsabbik módszer."
+    },
+    {
+      "id": 47,
+      "title": "Újabb rémes éjszaka Visnyij Volocsokban",
+      "text": "Nyikolajnak korán reggel el kell mennie a szállodából a dolgára. Ilyenkor még nincs szobaszolgálat, és az étterem sincs nyitva. Nyikolaj és a barátja teát készít a szobájukban (ez tilos ugyan, de inkább megkockáztatják hogy kiteszik őket, semmint hogy reggeli nélkül menjenek el). Mindkettőjüknek van merülőforralójuk, egy bögre vizet felmelegíteni. Az idő rövid, és minél előbb fel kell forralniuk kétbögrényi vizet. Beletehetik a merülőforralókat egy-egy bögrébe, és egy időben felmelegíthetnek egy-egy bögre vizet, vagy betehetik őket csak egy bögrébe, és egymás után két bögrére valót forralhatnak. Melyik eljárás a gyorsabb?",
+      "solution": "Úgy lesznek meg gyorsabban, ha mindkét melegítőt egy bögrébe teszik. Emlékezz rá, hogy a felhasznált energia nemcsak a víz melegítésére megy el, hanem a hőveszteségek pótlására is. A vizet hő kell, csak a hőveszteségben lesz eltérés. Bármi legyen is az általános képlet a hőveszteségre, a hőveszteség mértéke (vagyis az egységnyi időre jutó hőveszteség) szinte egyes-egyedül csak a csésze és a szoba hőmérsékletének különbségétől függ. Emiatt ha a csésze hosszabb időt tölt valamely hőmérsékleti intervallumban, akkor nagyobb lesz a hőveszeteség. Ha két melegítő melegíti a bögrét, akkor kisebb a hőveszteség, mint ha csak egy melegítené. Ha tehát egyszerre két melegítővel melegítjük előbb az egyik bögrényi vizet, aztán a másikat, akkor kevesebb energiára lesz szükség, tehát kevesebb időre is."
+    },
+    {
+      "id": 48,
+      "title": "Gravitációs hatás a reggelizőasztalnál",
+      "text": "Boris azt tanulta, hogy Newton gravitációs törvénye szerint a testek mind vonzzák egymást, és minél közelebb vannak egymáshoz, annál nagyobb erővel - távolságuk négyzetével fordított arányban. A nagyapja regelizés közben, az asztalnál próbára teszi Boriszt: mondjon olyan példát, amelyben két test közeledésekor csökken a gravitációs vonzóerő. Tudsz-e ilyen példát?",
+      "solution": "A Newton-féle gravitációs törvény azt állítja, hogy bármely két kis kiterjedésű tömeg között a kettejük távolságának négyzetével fordítva arányos nagyságú vonzóerő hat. Ezért pontszerű testek között mindenképpen nő a vonzóerő, ha közelebb kerülnek egymáshoz. Bonyolultabb geometriájú testek esetén viszot más a helyzet. Vegyünk például egy tóruszt (úszógumi) és egy pontszerű testet a tórusz forgástengelye mentén. Ha a pontszerű test a tórusz középpontjában van, akkor a rá ható gravitációs erő éppen eltünik, azaz zérus lesz, mert szimmetria okokból a tórusz darabjai által rá ható erők kioltják egymást. Másfelöl, ha a pontszerű test a tórusztól igen nagy távolságban van, akkor a vonzóerő ugyancsak igen közel lesz nullához. A tengelyen mozgatott pontszerű testre ható erőnek tehát valahol a kettő között maximuma van. És ettől a ponttól befelé, azaz a tórusz középpontja felé mozgatva a testet, a vonzóerő csökkenni fog, miközben azt senki sem vitatja, hogy a két test közeledik egymáshoz, akár melyik pontjukat (vagy akár a tömegközéppontjaikat) is tekintjük."
+    }
+  ]
+  
