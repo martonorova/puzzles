@@ -1,7 +1,7 @@
 import React, { useReducer } from 'react';
 import axios from 'axios';
 import cheerio from 'cheerio';
-import html from '../../constants/kfki.html';
+// import html from '../../constants/kfki.html';
 
 import openNotification from '../../utils/notification';
 
@@ -10,13 +10,14 @@ import {
   kfkiPuzzlesURL,
 } from '../../constants/scrapeConstants';
 
-import { PUZZLES_LOADED, CLEAR_ERRORS, ERROR } from '../types';
+import { PUZZLES_LOADED, PUZZLE_SELECT, CLEAR_ERRORS, ERROR } from '../types';
 import PuzzleContext from './puzzleContext';
 import PuzzleReducer from './puzzleReducer';
 
 const PuzzleState = (props) => {
   const initialState = {
     puzzles: [],
+    selectedPuzzle: null,
     loading: false,
     error: null,
   };
@@ -37,12 +38,19 @@ const PuzzleState = (props) => {
       // const kfkiPuzzles = axios.get(kfkiPuzzlesURL, headers);
       // console.log(kfkiPuzzles);
 
-      const $ = cheerio.load(html);
-      console.log($.html());
+      // const $ = cheerio.load(html);
+      // console.log($.html());
     } catch (err) {
       handleError(err);
     }
   };
+
+  const selectPuzzle = (puzzle) => {
+    dispatch({
+      type: PUZZLE_SELECT,
+      payload: puzzle
+    })
+  }
 
   const handleError = (err) => {
     if (err.response) {
@@ -64,9 +72,11 @@ const PuzzleState = (props) => {
     <PuzzleContext.Provider
       value={{
         puzzles: state.puzzles,
+        selectedPuzzle: state.selectedPuzzle,
         loading: state.loading,
         error: state.loading,
         loadPuzzles,
+        selectPuzzle
       }}
     >
       {props.children}

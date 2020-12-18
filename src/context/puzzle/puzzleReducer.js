@@ -1,4 +1,4 @@
-import { PUZZLES_LOADED } from '../types';
+import { PUZZLES_LOADED, PUZZLE_SELECT } from '../types';
 
 
 // eslint-disable-next-line import/no-anonymous-default-export
@@ -9,6 +9,11 @@ export default (state, action) => {
         ...state,
         loading: false,
       };
+    case PUZZLE_SELECT:
+      return {
+        ...state,
+        selectedPuzzle: action.payload
+      }
     default:
       return state;
   }
