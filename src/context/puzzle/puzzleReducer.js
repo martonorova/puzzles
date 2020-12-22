@@ -5,8 +5,10 @@ import {
   PUZZLE_SELECT,
   CLEAR_SELECTED_PUZZLE,
   CLEAR_PUZZLES,
-  CLEAR_FILTER
+  CLEAR_FILTER,
 } from '../types';
+
+import normalizeString from '../../utils/normalizeString';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (state, action) => {
@@ -20,7 +22,11 @@ export default (state, action) => {
     case FILTER_PUZZLES:
       return {
         ...state,
-        filteredPuzzles: action.payload,
+        filteredPuzzles: state.puzzles.filter((puzzle) => {
+          const normalized = normalizeString(action.payload);
+          const regex = RegExp(`.*${normalized}.*`, 'i');
+          return regex.test(puzzle.title) || regex.test(puzzle.text);
+        }),
       };
     case PUZZLE_SELECT:
       return {
@@ -30,8 +36,8 @@ export default (state, action) => {
     case CLEAR_SELECTED_PUZZLE:
       return {
         ...state,
-        selectedPuzzle: null
-      }
+        selectedPuzzle: null,
+      };
     case CLEAR_PUZZLES:
       return {
         ...state,
@@ -42,8 +48,8 @@ export default (state, action) => {
     case CLEAR_FILTER:
       return {
         ...state,
-        filteredPuzzles: []
-      }
+        filteredPuzzles: [],
+      };
     default:
       return state;
   }

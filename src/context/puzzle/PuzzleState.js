@@ -12,6 +12,7 @@ import {
   ERROR,
   CLEAR_SELECTED_PUZZLE,
   CLEAR_FILTER,
+  FILTER_PUZZLES,
 } from '../types';
 import PuzzleContext from './puzzleContext';
 import PuzzleReducer from './puzzleReducer';
@@ -44,7 +45,15 @@ const PuzzleState = (props) => {
     }
   };
 
-  const filterPuzzles = () => {};
+  const filterPuzzles = (regex) => {
+    // const regex = RegExp(`*${regex}*`, 'i');
+
+    dispatch({
+      type: FILTER_PUZZLES,
+      payload: regex
+    })
+
+  };
 
   const selectPuzzle = (puzzle) => {
     dispatch({

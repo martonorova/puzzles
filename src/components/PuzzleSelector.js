@@ -7,11 +7,13 @@ const { Search } = Input;
 
 const PuzzleSelector = () => {
   const puzzleContext = useContext(PuzzleContext);
-  const { puzzles, selectPuzzle, selectedPuzzle } = puzzleContext;
+  const { puzzles, selectPuzzle, selectedPuzzle, filterPuzzles } = puzzleContext;
 
   const history = useHistory();
 
-  const onSearch = (value) => {};
+  const onSearch = (regex) => {
+      filterPuzzles(regex)
+  };
 
   const onGetRandom = () => {
     selectPuzzle(puzzles[Math.floor(Math.random() * puzzles.length)]);

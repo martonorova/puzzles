@@ -1,9 +1,7 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import { List, Card } from 'antd';
 import { useHistory } from 'react-router-dom';
 import PuzzleContext from '../context/puzzle/puzzleContext';
-
-import puzzles from '../constants/kfki.json';
 
 const PuzzleList = () => {
   const puzzleContext = useContext(PuzzleContext);
