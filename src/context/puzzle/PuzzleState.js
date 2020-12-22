@@ -8,7 +8,6 @@ import {
   PUZZLES_LOADED,
   PUZZLE_SELECT,
   CLEAR_PUZZLES,
-  CLEAR_ERRORS,
   ERROR,
   CLEAR_SELECTED_PUZZLE,
   CLEAR_FILTER,
@@ -28,10 +27,6 @@ const PuzzleState = (props) => {
 
   const [state, dispatch] = useReducer(PuzzleReducer, initialState);
 
-  const loadEltePuzzles = () => {};
-
-  const loadKfkiPuzzles = () => {};
-
   const loadPuzzles = () => {
     setLoading();
 
@@ -50,9 +45,8 @@ const PuzzleState = (props) => {
 
     dispatch({
       type: FILTER_PUZZLES,
-      payload: regex
-    })
-
+      payload: regex,
+    });
   };
 
   const selectPuzzle = (puzzle) => {
@@ -63,18 +57,12 @@ const PuzzleState = (props) => {
   };
 
   const clearSelectedPuzzle = () => {
-
-    console.log("CLEAR SELECTED");
-
     dispatch({
       type: CLEAR_SELECTED_PUZZLE,
     });
   };
 
   const clearPuzzles = () => {
-    
-    console.log("CLEAR ALL");
-
     dispatch({
       type: CLEAR_PUZZLES,
     });
@@ -119,6 +107,7 @@ const PuzzleState = (props) => {
         filterPuzzles,
         selectPuzzle,
         clearPuzzles,
+        clearFilter,
       }}
     >
       {props.children}

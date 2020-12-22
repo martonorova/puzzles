@@ -6,7 +6,7 @@ import PuzzleContext from '../context/puzzle/puzzleContext';
 const PuzzleList = () => {
   const puzzleContext = useContext(PuzzleContext);
 
-  const { puzzles, selectPuzzle, loading } = puzzleContext;
+  const { puzzles, filteredPuzzles, selectPuzzle, loading } = puzzleContext;
   const history = useHistory();
 
   const cutText = (text, length) => {
@@ -33,7 +33,7 @@ const PuzzleList = () => {
         xl: 4,
         xxl: 4,
       }}
-      dataSource={puzzles}
+      dataSource={filteredPuzzles.length !== 0 ? filteredPuzzles : puzzles}
       renderItem={(item) => (
         <List.Item>
           <Card
@@ -42,6 +42,7 @@ const PuzzleList = () => {
             height='23vh'
             width='20vw'
             onClick={(e) => onPuzzleSelect(item)}
+            style={{borderRadius: '10px'}}
           >
             {cutText(item.text, 40)}
           </Card>

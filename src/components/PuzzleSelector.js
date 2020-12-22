@@ -7,12 +7,22 @@ const { Search } = Input;
 
 const PuzzleSelector = () => {
   const puzzleContext = useContext(PuzzleContext);
-  const { puzzles, selectPuzzle, selectedPuzzle, filterPuzzles } = puzzleContext;
+  const {
+    puzzles,
+    selectPuzzle,
+    selectedPuzzle,
+    filterPuzzles,
+    clearFilter,
+  } = puzzleContext;
 
   const history = useHistory();
 
   const onSearch = (regex) => {
-      filterPuzzles(regex)
+    if (regex === '') {
+      clearFilter();
+      return;
+    }
+    filterPuzzles(regex);
   };
 
   const onGetRandom = () => {
@@ -23,9 +33,12 @@ const PuzzleSelector = () => {
   return (
     <Fragment>
       <Space>
-        <Button type='primary' onClick={onGetRandom}>Random</Button>
+        <Button type='primary' onClick={onGetRandom}>
+          Random
+        </Button>
         <Search
           enterButton
+          allowClear
           placeholder='Search in puzzle titles and texts'
           style={{ width: '50vw' }}
           onSearch={onSearch}

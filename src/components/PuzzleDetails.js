@@ -1,15 +1,14 @@
 import React, { Fragment, useContext } from 'react';
 import openNotification from '../utils/notification';
 import { useHistory } from 'react-router-dom';
-import { PageHeader } from 'antd';
+import { PageHeader, Button, Popconfirm, Modal } from 'antd';
 
 import PuzzleContext from '../context/puzzle/puzzleContext';
 
 const PuzzleDetails = () => {
   const puzzleContext = useContext(PuzzleContext);
-  const { selectedPuzzle, clearSelectedPuzzle } = puzzleContext;
+  const { selectedPuzzle } = puzzleContext;
   const history = useHistory();
-
   if (selectedPuzzle === null) {
     openNotification('error', 'Error while loading selected puzzle');
     history.push('/');
@@ -19,12 +18,30 @@ const PuzzleDetails = () => {
     history.goBack();
   };
 
+  const showModal = () => {
+      Modal.info({
+          title: selectedPuzzle.title,
+          content: (
+          <p>{selectedPuzzle.solution}</p>
+          ),
+          onOk: () => {}
+      });
+  }
+
   return (
-    <div>
+    <Fragment>
       <PageHeader onBack={onBack} title={selectedPuzzle.title} />
 
       <p>{selectedPuzzle.text}</p>
-    </div>
+      <Popconfirm
+        title='Are you sure to reveal the mystery?'
+        onConfirm={showModal}
+        okText='Yes'
+        cancelText='No'
+      >
+        <Button type='primary'>Show solution</Button>
+      </Popconfirm>
+    </Fragment>
   );
 };
 
