@@ -1,28 +1,27 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useContext, useEffect } from 'react';
+import { Space } from 'antd';
 
 import PuzzleContext from '../../context/puzzle/puzzleContext';
 
 import PuzzleList from '../PuzzleList';
+import PuzzleSelector from '../PuzzleSelector';
 
 const Home = () => {
+  const puzzleContext = useContext(PuzzleContext);
 
-    const puzzleContext = useContext(PuzzleContext);
+  const { loadPuzzles, clearSelectedPuzzle } = puzzleContext;
 
-    const { loadPuzzles } = puzzleContext;
+  useEffect(() => {
+    clearSelectedPuzzle();
+    loadPuzzles();
+  }, []);
 
-    // useEffect(() => {
-    //     loadPuzzles();
-    // })
+  return (
+    <Space direction='vertical' size='large'>
+      <PuzzleSelector />
+      <PuzzleList />
+    </Space>
+  );
+};
 
-
-
-
-    return (
-        <div>
-            <h1>HOME</h1>
-            <PuzzleList />
-        </div>
-    )
-}
-
-export default Home
+export default Home;

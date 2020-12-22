@@ -29,8 +29,8 @@ const App = () => {
         </Header>
         <Content style={{ padding: '50px 50px', marginTop: 64 }}>
           <Switch>
-            <Route path='/' component={Home} />
             <Route path='/details' component={PuzzleDetails} />
+            <Route path='/' component={Home} />
           </Switch>
         </Content>
         <Footer style={{ textAlign: 'center' }}>

@@ -1,22 +1,25 @@
 import React, { useReducer } from 'react';
-import axios from 'axios';
-import cheerio from 'cheerio';
 // import html from '../../constants/kfki.html';
+import kfkiPuzzles from '../../constants/kfki.json';
 
 import openNotification from '../../utils/notification';
 
 import {
-  eltePuzzlesURL,
-  kfkiPuzzlesURL,
-} from '../../constants/scrapeConstants';
-
-import { PUZZLES_LOADED, PUZZLE_SELECT, CLEAR_ERRORS, ERROR } from '../types';
+  PUZZLES_LOADED,
+  PUZZLE_SELECT,
+  CLEAR_PUZZLES,
+  CLEAR_ERRORS,
+  ERROR,
+  CLEAR_SELECTED_PUZZLE,
+  CLEAR_FILTER,
+} from '../types';
 import PuzzleContext from './puzzleContext';
 import PuzzleReducer from './puzzleReducer';
 
 const PuzzleState = (props) => {
   const initialState = {
     puzzles: [],
+    filteredPuzzles: [],
     selectedPuzzle: null,
     loading: false,
     error: null,
@@ -29,28 +32,50 @@ const PuzzleState = (props) => {
   const loadKfkiPuzzles = () => {};
 
   const loadPuzzles = () => {
+    setLoading();
+
     try {
-      // const headers = {
-      //     'withCredentials': false,
-      //     'Access-Control-Allow-Credentials': true
-      // }
-
-      // const kfkiPuzzles = axios.get(kfkiPuzzlesURL, headers);
-      // console.log(kfkiPuzzles);
-
-      // const $ = cheerio.load(html);
-      // console.log($.html());
+      dispatch({
+        type: PUZZLES_LOADED,
+        payload: kfkiPuzzles,
+      });
     } catch (err) {
       handleError(err);
     }
   };
 
+  const filterPuzzles = () => {};
+
   const selectPuzzle = (puzzle) => {
     dispatch({
       type: PUZZLE_SELECT,
-      payload: puzzle
-    })
-  }
+      payload: puzzle,
+    });
+  };
+
+  const clearSelectedPuzzle = () => {
+
+    console.log("CLEAR SELECTED");
+
+    dispatch({
+      type: CLEAR_SELECTED_PUZZLE,
+    });
+  };
+
+  const clearPuzzles = () => {
+    
+    console.log("CLEAR ALL");
+
+    dispatch({
+      type: CLEAR_PUZZLES,
+    });
+  };
+
+  const clearFilter = () => {
+    dispatch({
+      type: CLEAR_FILTER,
+    });
+  };
 
   const handleError = (err) => {
     if (err.response) {
@@ -68,15 +93,23 @@ const PuzzleState = (props) => {
     }
   };
 
+  const setLoading = () => {
+    state.loading = true;
+  };
+
   return (
     <PuzzleContext.Provider
       value={{
         puzzles: state.puzzles,
+        filteredPuzzles: state.filteredPuzzles,
         selectedPuzzle: state.selectedPuzzle,
+        clearSelectedPuzzle,
         loading: state.loading,
         error: state.loading,
         loadPuzzles,
-        selectPuzzle
+        filterPuzzles,
+        selectPuzzle,
+        clearPuzzles,
       }}
     >
       {props.children}

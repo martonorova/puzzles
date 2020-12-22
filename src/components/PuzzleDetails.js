@@ -1,21 +1,31 @@
-import React, { useContext } from 'react'
+import React, { Fragment, useContext } from 'react';
+import openNotification from '../utils/notification';
+import { useHistory } from 'react-router-dom';
+import { PageHeader } from 'antd';
 
 import PuzzleContext from '../context/puzzle/puzzleContext';
 
 const PuzzleDetails = () => {
+  const puzzleContext = useContext(PuzzleContext);
+  const { selectedPuzzle, clearSelectedPuzzle } = puzzleContext;
+  const history = useHistory();
 
-    const puzzleContext = useContext(PuzzleContext);
-    const { selectedPuzzle } = puzzleContext;
+  if (selectedPuzzle === null) {
+    openNotification('error', 'Error while loading selected puzzle');
+    history.push('/');
+  }
 
+  const onBack = () => {
+    history.goBack();
+  };
 
-    return (
-        <div>
-            <h1>Puzzle Details</h1>
-            <h1>
-                {selectedPuzzle.title}
-            </h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <PageHeader onBack={onBack} title={selectedPuzzle.title} />
 
-export default PuzzleDetails
+      <p>{selectedPuzzle.text}</p>
+    </div>
+  );
+};
+
+export default PuzzleDetails;
