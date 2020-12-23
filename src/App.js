@@ -30,9 +30,10 @@ const App = () => {
         </Header>
         <Content
           style={{
-            padding: '50px 50px',
+            padding: '25px 25px',
             marginTop: 64,
             backgroundColor: blue[2],
+            minHeight: `calc(100vh - 128px)`
           }}
         >
           <Switch>
@@ -40,7 +41,7 @@ const App = () => {
             <Route path='/' component={Home} />
           </Switch>
         </Content>
-        <Footer style={{ textAlign: 'center' }}>
+        <Footer style={{ textAlign: 'center', height: '64px' }}>
           Puzzles 2020 made with <HeartOutlined />
         </Footer>
       </Layout>

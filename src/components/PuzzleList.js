@@ -3,8 +3,6 @@ import { List, Card } from 'antd';
 import { useHistory } from 'react-router-dom';
 import PuzzleContext from '../context/puzzle/puzzleContext';
 
-import { orange } from '@ant-design/colors';
-
 const PuzzleList = () => {
   const puzzleContext = useContext(PuzzleContext);
 
@@ -30,10 +28,10 @@ const PuzzleList = () => {
         gutter: 16,
         xs: 1,
         sm: 2,
-        md: 4,
-        lg: 4,
+        md: 2,
+        lg: 3,
         xl: 4,
-        xxl: 4,
+        xxl: 6,
       }}
       dataSource={filteredPuzzles.length !== 0 ? filteredPuzzles : puzzles}
       renderItem={(item) => (
@@ -41,16 +39,13 @@ const PuzzleList = () => {
           <Card
             hoverable
             title={item.title}
-            height='23vh'
-            width='20vw'
             onClick={(e) => onPuzzleSelect(item)}
             style={{
               borderRadius: '10px',
-              backgroundColor:
-                orange[Math.floor(Math.random() * (orange.length - 4))],
+              maxWidth: 'none',
             }}
           >
-            {cutText(item.text, 40)}
+            <p>{cutText(item.text, 40)}</p>
           </Card>
         </List.Item>
       )}
