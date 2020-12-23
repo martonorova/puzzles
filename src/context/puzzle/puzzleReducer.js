@@ -1,4 +1,3 @@
-import { act } from 'react-dom/test-utils';
 import {
   PUZZLES_LOADED,
   FILTER_PUZZLES,

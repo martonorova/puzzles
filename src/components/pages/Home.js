@@ -14,6 +14,7 @@ const Home = () => {
   useEffect(() => {
     clearSelectedPuzzle();
     loadPuzzles();
+  // eslint-disable-next-line
   }, []);
 
   return (
