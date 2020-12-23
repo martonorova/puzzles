@@ -1,15 +1,14 @@
 import React from 'react';
 import { Layout } from 'antd';
 import { HeartOutlined } from '@ant-design/icons';
+import { blue } from '@ant-design/colors';
 import './App.css';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Link } from 'react-router-dom';
 
 import PuzzleState from './context/puzzle/PuzzleState';
 
 import Home from './components/pages/Home';
 import PuzzleDetails from './components/PuzzleDetails';
-
-// console.log(content)
 
 const App = () => {
   const { Header, Content, Footer } = Layout;
@@ -25,9 +24,17 @@ const App = () => {
             textAlign: 'start',
           }}
         >
-          <h1 style={{ color: 'white' }}>Puzzles</h1>
+          <Link to='/'>
+            <h1 style={{ color: 'white' }}>Puzzles</h1>
+          </Link>
         </Header>
-        <Content style={{ padding: '50px 50px', marginTop: 64 }}>
+        <Content
+          style={{
+            padding: '50px 50px',
+            marginTop: 64,
+            backgroundColor: blue[2],
+          }}
+        >
           <Switch>
             <Route path='/details' component={PuzzleDetails} />
             <Route path='/' component={Home} />

@@ -3,6 +3,8 @@ import { List, Card } from 'antd';
 import { useHistory } from 'react-router-dom';
 import PuzzleContext from '../context/puzzle/puzzleContext';
 
+import { orange } from '@ant-design/colors';
+
 const PuzzleList = () => {
   const puzzleContext = useContext(PuzzleContext);
 
@@ -23,7 +25,7 @@ const PuzzleList = () => {
 
   return (
     <List
-    loading={loading}
+      loading={loading}
       grid={{
         gutter: 16,
         xs: 1,
@@ -42,7 +44,11 @@ const PuzzleList = () => {
             height='23vh'
             width='20vw'
             onClick={(e) => onPuzzleSelect(item)}
-            style={{borderRadius: '10px'}}
+            style={{
+              borderRadius: '10px',
+              backgroundColor:
+                orange[Math.floor(Math.random() * (orange.length - 4))],
+            }}
           >
             {cutText(item.text, 40)}
           </Card>

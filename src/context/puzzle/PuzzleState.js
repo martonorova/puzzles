@@ -1,5 +1,4 @@
 import React, { useReducer } from 'react';
-// import html from '../../constants/kfki.html';
 import kfkiPuzzles from '../../constants/kfki.json';
 
 import openNotification from '../../utils/notification';
@@ -41,8 +40,6 @@ const PuzzleState = (props) => {
   };
 
   const filterPuzzles = (regex) => {
-    // const regex = RegExp(`*${regex}*`, 'i');
-
     dispatch({
       type: FILTER_PUZZLES,
       payload: regex,

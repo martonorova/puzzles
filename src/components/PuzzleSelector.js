@@ -7,13 +7,7 @@ const { Search } = Input;
 
 const PuzzleSelector = () => {
   const puzzleContext = useContext(PuzzleContext);
-  const {
-    puzzles,
-    selectPuzzle,
-    selectedPuzzle,
-    filterPuzzles,
-    clearFilter,
-  } = puzzleContext;
+  const { puzzles, selectPuzzle, filterPuzzles, clearFilter } = puzzleContext;
 
   const history = useHistory();
 
