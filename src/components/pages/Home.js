@@ -1,5 +1,5 @@
-import React, { useContext, useEffect } from 'react';
-import { Space } from 'antd';
+import React, { useContext, useEffect, Fragment } from 'react';
+import { Divider } from 'antd';
 
 import PuzzleContext from '../../context/puzzle/puzzleContext';
 
@@ -14,14 +14,15 @@ const Home = () => {
   useEffect(() => {
     clearSelectedPuzzle();
     loadPuzzles();
-  // eslint-disable-next-line
+    // eslint-disable-next-line
   }, []);
 
   return (
-    <Space direction='vertical' size='large'>
+    <Fragment>
       <PuzzleSelector />
+      <Divider />
       <PuzzleList />
-    </Space>
+    </Fragment>
   );
 };
 
